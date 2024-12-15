@@ -10,7 +10,7 @@ import { tracer } from "../otel.ts";
  * Fresh middleware to enable file-system based routing.
  * ```ts
  * // Enable Fresh static file serving
- * app.use(freshStaticFles());
+ * app.use(freshStaticFiles());
  * ```
  */
 export function staticFiles<T>(): MiddlewareFn<T> {
